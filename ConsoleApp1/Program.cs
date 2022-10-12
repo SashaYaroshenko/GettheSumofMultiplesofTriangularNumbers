@@ -21,16 +21,13 @@ namespace ConsoleApp1
         {
             List<int> progression1 = new List<int>();
             List<BigInteger> progression2 = new List<BigInteger>();
-            
             int count = 0;
             int multipl = 0;
             BigInteger sum = 0;
-           
             for(int i=1; i<=n; i++)
             {
                 progression1.Add(i * (i + 1) / 2);
             }
-            
             for (int i=1; i< int.MaxValue; i++)
             {
                 count = 0;
@@ -48,7 +45,6 @@ namespace ConsoleApp1
                     multipl = progression1.Max() * i;
                     break;
                 }
-                
             }
             //while(progression2.Count!=m)
             {
