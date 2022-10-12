@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj": {}
+    "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +19,22 @@
         "net472": {}
       }
     },
-    "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj": {
+    "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj",
+        "projectUniqueName": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj",
         "projectName": "Get the Sum of Multiples of Triangular Numbers",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\obj\\",
+        "projectPath": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers.csproj",
+        "packagesPath": "C:\\Users\\Denys\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\Get the Sum of Multiples of Triangular Numbers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Denys\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,14 +42,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj"
+              "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj": {
+                "projectPath": "C:\\Users\\Denys\\source\\repos\\Get the Sum of Multiples of Triangular Numbers\\ConsoleApp1\\ConsoleApp1.csproj"
               }
             }
           }
@@ -86,7 +92,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -95,7 +102,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
