@@ -40,8 +40,8 @@ namespace ConsoleApp1
             {
                 sum += progression2[i];
             }
-            return sum;
 
+            return sum;
         }
 
         static BigInteger gcd(BigInteger n1, BigInteger n2)
