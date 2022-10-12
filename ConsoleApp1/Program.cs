@@ -11,52 +11,54 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Kata.SumMultTriangNum(5, 8);
         }
     }
     public static class Kata
     {
         public static BigInteger SumMultTriangNum(int n, int m)
         {
-            List<int> progression1 = new List<int>();
-            List<BigInteger> progression2 = new List<BigInteger>();
-            int count = 0;
-            int multipl = 0;
+            BigInteger[] progression1 = new BigInteger[n];
+            BigInteger[] progression2 = new BigInteger[m];
+            BigInteger multipl = 0;
             BigInteger sum = 0;
+
             for (int i = 1; i <= n; i++)
             {
-                progression1.Add(i * (i + 1) / 2);
+                progression1[i - 1] = i * (i + 1) / 2;
             }
-            for (int i = 1; i < int.MaxValue; i++)
-            {
-                count = 0;
-                for (int p = 0; p < progression1.Count; p++)
-                {
-                    if (progression1.Max() * i % progression1[p] == 0)
-                    {
 
-                        count++;
+            // https://www.w3resource.com/csharp-exercises/math/csharp-math-exercise-20.php
+            multipl = gcdFind(progression1);
 
-                    }
-                }
-                if (count == progression1.Count)
-                {
-                    multipl = progression1.Max() * i;
-                    break;
-                }
-            }
-            //while(progression2.Count!=m)
+            for (int i = 1; i <= m; i++)
             {
-                for (int i = 1; i <= m; i++)
-                {
-                    progression2.Add(multipl * i);
-                }
+                progression2[i - 1] = multipl * i;
             }
-            for (int i = 0; i < progression2.Count; i++)
+
+            for (int i = 0; i < progression2.Length; i++)
             {
                 sum += progression2[i];
             }
             return sum;
 
+        }
+
+        static BigInteger gcd(BigInteger n1, BigInteger n2)
+        {
+            if (n2 == 0)
+            {
+                return n1;
+            }
+            else
+            {
+                return gcd(n2, n1 % n2);
+            }
+        }
+
+        static BigInteger gcdFind(BigInteger[] numbers)
+        {
+            return numbers.Aggregate((S, val) => S * val / gcd(S, val));
         }
     }
 }
